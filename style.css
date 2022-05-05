@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* reset css */
+
+.clear {
+    clear: both;
+}
+
+.cover {
+    background-image: linear-gradient(purple, pink);
+    min-height: 100vh;
+}
+
+.coverDiv {
+    width: 70%;
+    float: right;
+    padding: 35px;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+.picture {
+    float: left;
+    width: 30%;
+    padding: 35px;
+}
+
+.picture > img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
