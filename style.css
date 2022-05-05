@@ -21,11 +21,15 @@
     padding: 35px;
 }
 
-h1 {
+h1, p {
     text-align: center;
     padding: 15px 0;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: yellow;
+}
+
+p {
+    font-size: 25px;
 }
 
 .picture {
